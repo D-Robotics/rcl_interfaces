@@ -1,4 +1,4 @@
-English| [简体中文](./README_cn.md)
+[English](./README.md) | 简体中文
 
 # action_msgs
 This package contains several messages and services useful for ROS 2 actions.

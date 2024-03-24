@@ -1,4 +1,4 @@
-English| [简体中文](./README_cn.md)
+[English](./README.md) | 简体中文
 
 # rosgraph_msgs
 This is a package containing message definitions relating to the ROS Computation Graph. These are generally considered to be low-level messages that end users do not interact with.

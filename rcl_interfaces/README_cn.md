@@ -1,4 +1,4 @@
-English| [简体中文](./README_cn.md)
+[English](./README.md) | 简体中文
 
 # rcl_interfaces
 This package contains the messages and services which ROS client libraries will use under the hood to communicate higher level concepts such as parameters.
@@ -6,9 +6,9 @@ This package contains the messages and services which ROS client libraries will 
 For more information about ROS 2 interfaces, see [index.ros2.org](https://index.ros.org/doc/ros2/Concepts/About-ROS-Interfaces/)
 
 ## Parameter Groups
-参数被包含在组中。
-默认组为'/'。
-它的行为类似于文件路径，您可以在组内嵌套子组。
+Parameters are contained in groups.
+The default group is '/'.
+It behaves like a filepath, where you can nest sub-groups within groups.
 
 For more information about parameters, see:
 [design.ros2.org](https://design.ros2.org/articles/ros_parameters.html)
@@ -21,7 +21,8 @@ The ROS API for a node will be as follows inside the node's namespace.
  * `parameter_events`: `ParameterEvent`
   * This topic provides a way to subscribe to all parameter updates occurring on the node, including addition removal and changes in value. Every atomic change will be published separately.
  * `parameter_event_descriptors`: `ParameterEventDescriptors`
-  * This topic provides a way to subscribe to all parameter updates occurring on the node, including addition removal and changes in value. Every atomic change will be published separately. This is provided if large parameter values are expected to slow down the system.
+  * This topic provides a way to subscribe to all parameter updates occurring on the node, including addition removal and changes in value.
+    Every atomic change will be published separately. This is provided if large parameter values are expected to slow down the system.
 
 ### Services:
 
@@ -48,7 +49,8 @@ The ROS API for a node will be as follows inside the node's namespace.
 * [ParameterValue](msg/ParameterValue.msg): The associated value and type of a parameter
 * [SetParameterResult](msg/SetParametersResult.msg): Result message indicating whether a set parameters event succeeded
 
-## Services (.srv)* [DescribeParameters](srv/DescribeParameters.srv): Request a list of descriptions for a specified list of parameters.
+## Services (.srv)
+* [DescribeParameters](srv/DescribeParameters.srv): Request a list of descriptions for a specified list of parameters.
 * [GetParameters](srv/GetParameters.srv): Get the values of a specific list of parameters
 * [GetParameterTypes](srv/GetParametersTypes.srv): Get the enum type of a list of parameters
 * [ListParameters](srv/ListParameters.srv): Get the list of parameters given a list of prefixes

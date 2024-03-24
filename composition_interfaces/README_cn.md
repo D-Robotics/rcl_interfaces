@@ -1,4 +1,4 @@
-English| [简体中文](./README_cn.md)
+[English](./README.md) | 简体中文
 
 # composition_interfaces
 This is a package containing message and service definitions for managing composable nodes in a container process.
