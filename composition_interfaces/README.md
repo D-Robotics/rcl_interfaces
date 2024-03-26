@@ -1,5 +1,3 @@
-English| [简体中文](./README_cn.md)
-
 # composition_interfaces
 This is a package containing message and service definitions for managing composable nodes in a container process.
 Generally these services are used by the ROS 2 [`roslaunch`](https://design.ros2.org/articles/roslaunch.html) system.

@@ -1,5 +1,3 @@
-English| [简体中文](./README_cn.md)
-
 # lifecycle_msgs
 This package contains message and service definitions for managing lifecycle nodes.
 These messages and services form a standardized interface for transitioning these

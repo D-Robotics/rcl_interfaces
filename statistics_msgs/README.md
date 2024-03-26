@@ -1,5 +1,3 @@
-English| [简体中文](./README_cn.md)
-
 # metrics_statistics_msgs
 
 Package containing ROS 2 message definitions for reporting

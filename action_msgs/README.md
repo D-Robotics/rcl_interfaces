@@ -1,5 +1,3 @@
-English| [简体中文](./README_cn.md)
-
 # action_msgs
 This package contains several messages and services useful for ROS 2 actions.
 More information about actions can be found on its [design article](http://design.ros2.org/articles/actions.html).

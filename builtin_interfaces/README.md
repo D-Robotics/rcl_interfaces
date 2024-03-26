@@ -1,5 +1,3 @@
-English| [简体中文](./README_cn.md)
-
 # builtin_interfaces
 A package containing message definitions for types defined in the OMG IDL Platform Specific Model.
 

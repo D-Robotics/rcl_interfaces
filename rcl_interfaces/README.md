@@ -1,14 +1,12 @@
-English| [简体中文](./README_cn.md)
-
 # rcl_interfaces
 This package contains the messages and services which ROS client libraries will use under the hood to communicate higher level concepts such as parameters.
 
 For more information about ROS 2 interfaces, see [index.ros2.org](https://index.ros.org/doc/ros2/Concepts/About-ROS-Interfaces/)
 
 ## Parameter Groups
-参数被包含在组中。
-默认组为'/'。
-它的行为类似于文件路径，您可以在组内嵌套子组。
+Parameters are contained in groups.
+The default group is '/'.
+It behaves like a filepath, where you can nest sub-groups within groups.
 
 For more information about parameters, see:
 [design.ros2.org](https://design.ros2.org/articles/ros_parameters.html)
